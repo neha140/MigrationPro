@@ -63,7 +63,7 @@ def chat_page():
 
 def about_page():
     st.header("About Page")
-    st.write("This is the about page. Add your content here.")
+    #st.write("This is the about page. Add your content here.")
 
 if __name__ == "__main__":
     main()
