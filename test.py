@@ -4,7 +4,7 @@ import time
 
 def main():
     st.title("Migration Pro")
-    st.write("This tool helps you plan your migration to AWS by analyzing your current infrastructure, providing recommendations, and estimating costs. Start by describing your current infrastructure below, optionally upload any architecture diagrams, and the tool will provide a detailed migration plan.")
+    st.write("This tool helps you plan your migration to AWS by analyzing your current infrastructure, providing recommendations, and estimating costs. Start by describing your current infrastructure below, optionally upload any configuration file, and the tool will provide a detailed migration plan.")
     # Sidebar
     st.sidebar.header("Migration Pro")
     page = st.sidebar.radio("Go to", ["Home", "Chat", "About"])
